@@ -1,0 +1,53 @@
+{
+  "name": "node-tools",
+  "version": "0.1.0",
+  "description": "A modern, zero-dependency toolbox for Node.js: CLI + tiny reusable utilities.",
+  "type": "module",
+  "license": "MIT",
+  "author": "devgautm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devgautm/node-tools"
+  },
+  "bugs": {
+    "url": "https://github.com/devgautm/node-tools/issues"
+  },
+  "homepage": "https://github.com/devgautm/node-tools#readme",
+  "keywords": [
+    "node",
+    "tools",
+    "cli",
+    "utilities",
+    "hash",
+    "uuid",
+    "json",
+    "base64",
+    "slug"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "nt": "./src/cli.js",
+    "node-tools": "./src/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./cli": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "docs",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "check": "npm run test && npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0",
+    "prettier": "^3.3.3"
+  }
+}
