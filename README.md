@@ -1,4 +1,4 @@
-# Node Tools 🧰⚡
+# Node Tools
 
 A **modern, zero-dependency** toolbox for Node.js — shipped as a friendly **CLI** (`nt`) and a small set of reusable utility functions.
 
@@ -6,13 +6,13 @@ A **modern, zero-dependency** toolbox for Node.js — shipped as a friendly **CL
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - **Node.js >= 18** (works great on Node 20/22)
 
 ---
 
-## 📦 Install
+## Install
 
 ### Run without installing (recommended)
 
@@ -38,7 +38,7 @@ npm test
 
 ---
 
-## 🚀 CLI usage
+## CLI usage
 
 ```bash
 nt <command> [options]
@@ -60,7 +60,7 @@ nt --version
 
 ---
 
-## 🧪 Examples
+## Examples
 
 ### `hash`
 
@@ -129,7 +129,7 @@ nt system
 
 ---
 
-## 🧩 Programmatic API
+## Programmatic API
 
 You can also import the utilities directly:
 
@@ -144,7 +144,7 @@ console.log(base64Decode("aGVsbG8="));
 
 ---
 
-## 🗂️ Project structure
+## Project structure
 
 ```text
 node-tools/
@@ -160,7 +160,7 @@ node-tools/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -171,6 +171,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ---
 
-## 📄 License
+## License
 
 MIT — see [LICENSE](./LICENSE).
